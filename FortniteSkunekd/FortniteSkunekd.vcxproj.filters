@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Fortnite">
+      <UniqueIdentifier>{9920b949-831f-4053-abb3-b3a6cab70762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fortnite\Public">
+      <UniqueIdentifier>{6c24e119-638a-4234-91c8-ab799fcbed15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fortnite\Private">
+      <UniqueIdentifier>{1fea09a6-3dd3-4c33-9576-2fab3166a4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{075f6d92-7481-4eb1-8e2e-90acfbd85b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Public">
+      <UniqueIdentifier>{e56cf81a-70da-4586-9d3f-79c5a5294275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Private">
+      <UniqueIdentifier>{13c62a21-fc24-49be-8803-2c2a6b9e2dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Private\IMGUI">
+      <UniqueIdentifier>{50387213-0136-42c2-9259-e3ff8a8ee1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Private\SDK">
+      <UniqueIdentifier>{c83d72d1-32a9-4cb1-b7bf-4f20b9e018ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Public\SDK">
+      <UniqueIdentifier>{7bbdb7e7-efbe-4987-9679-c58f84bb1872}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>Header Files\Fortnite\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Fortnite\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilites.h">
+      <Filter>Header Files\Fortnite\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\Fortnite\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Header Files\Fortnite\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>Header Files\Fortnite\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\sdk\UnrealContainers.hpp">
+      <Filter>Header Files\Engine\Public\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\sdk\PropertyFixup.hpp">
+      <Filter>Header Files\Engine\Public\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\sdk\SDK.hpp">
+      <Filter>Header Files\Engine\Public\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorLoot.h">
+      <Filter>Header Files\Fortnite\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscs.h">
+      <Filter>Header Files\Fortnite\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMode.cpp">
+      <Filter>Header Files\Fortnite\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Header Files\Fortnite\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilties.cpp">
+      <Filter>Header Files\Fortnite\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Header Files\Fortnite\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Header Files\Fortnite\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Header Files\Fortnite\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Imgui\imgui_demo.cpp">
+      <Filter>Header Files\Engine\Private\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Imgui\imgui_draw.cpp">
+      <Filter>Header Files\Engine\Private\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Imgui\imgui_impl_win32.cpp">
+      <Filter>Header Files\Engine\Private\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Imgui\imgui_tables.cpp">
+      <Filter>Header Files\Engine\Private\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Imgui\imgui_widgets.cpp">
+      <Filter>Header Files\Engine\Private\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Imgui\imgui.cpp">
+      <Filter>Header Files\Engine\Private\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\sdk\SDK\Basic.cpp">
+      <Filter>Header Files\Engine\Private\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\sdk\SDK\CoreUObject_functions.cpp">
+      <Filter>Header Files\Engine\Private\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\sdk\SDK\Engine_functions.cpp">
+      <Filter>Header Files\Engine\Private\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\sdk\SDK\FortniteGame_functions.cpp">
+      <Filter>Header Files\Engine\Private\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\sdk\SDK\GameplayAbilities_functions.cpp">
+      <Filter>Header Files\Engine\Private\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Imgui\imgui_impl_dx9.cpp">
+      <Filter>Header Files\Engine\Private\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Header Files\Engine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorLoot.cpp">
+      <Filter>Header Files\Fortnite\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscs.cpp">
+      <Filter>Header Files\Fortnite\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\minhook\minhook.lib">
+      <Filter>Header Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lib\sdk\NameCollisions.inl">
+      <Filter>Header Files\Engine\Public\SDK</Filter>
+    </None>
+  </ItemGroup>
+</Project>
